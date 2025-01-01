@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 66, 25);
+  color: white;
+}
+
+div {
+  display: flex;
+}
+
+
+/* ----------------------------------- Top Bar ----------------------------------- */
+div.top > * {
+  height: 50px;
+  margin: 10px;
+}
+/* --------------------- logo --------------------- */
+.logo {
+  min-width: 250px;
+  justify-content: space-evenly;
+}
+#logo {
+  border: none;
+  border-radius: 15px;
+}
+#icon {
+  height: 17px;
+  margin: auto;
+  margin-right: 5px;
+}
+h4 {
+  margin: 0;
+}
+span {
+  margin: auto;
+}
+
+
+/* ------------------ search bar ------------------ */
+.search {
+  flex: 3;
+  min-width: 350px;
+}
+
+select, input, button {
+  border: none;
+}
+
+select {
+  width: 75px;
+  text-align: center;
+}
+
+input {
+  flex: 1;
+}
+
+
+button img {
+  width: 30px;
+}
+
+/* ------------------- admin-top ------------------- */
+.admin-top {
+  min-width: 375px;
+}
+
+/* ------------------------------- Navigation Bar ------------------------------- */
+div.nav {
+  height: 40px;
+  justify-content: space-between;
+}
+
+div.categories {
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 750px;
+}
+
+div.admin-bottom {
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 375px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: auto;
+}
+
+a img {
+  height: 17px;
+  margin: auto;
+}

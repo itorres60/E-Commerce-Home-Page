@@ -4,30 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-
     <header>
+      <!-- ----------------------------------- Top Bar ----------------------------------- -->
       <div class="top">
-        <div>Logo</div>
-        <div>Delivery To</div>
-        <div>Search</div>
-        <div>Language</div>
-        <div>Orders</div>
-        <div>Cart</div>
+        <!-- --------------------- logo --------------------- -->
+        <div class="logo">
+          <img id="logo" src="./images/logo.png" alt="logo">
+          <div>
+            <img id="icon" src="./images/location.png" alt="icon">
+            <span>Deliver to J<br> <h4>Lamesa 79331</h4></span>
+          </div>
+        </div>
+        <!-- ------------------ search bar ------------------ -->
+        <div class="search">   
+          <select name="search-category" id="search-category">
+            <option value="All">All</option>
+            <option value="Basics">Basics</option>
+            <option value="Canned">Canned</option>
+            <option value="Decor">Decor</option>
+            <option value="Exterior">Exterior</option>
+            <option value="Fixed">Fixed</option>
+          </select>
+          <input type="text">
+          <button>
+            <img src="./images/search.png" alt="seach button">
+          </button>
+        </div>
+        <!-- ------------------ admin-top ------------------ -->
+        <div class="admin-top">
+          <img src="./images/united-states.png" alt="language icon">
+          <img src="./images/notification.png" alt="">
+          <span>Hello, J<br> <h4>Account for J Isaias Torres</h4></span>
+          <img src="./images/shopping-cart.png" alt="">
+        </div>
+
       </div>
+
+
+      <!-- ----------------------------------- Navigation Bar -----------------------------------  -->
       <div class="nav">
-        <ul>
-          <li>All</li>
-          <li>Category</li>
-          <li>Category</li>
-          <li>Category</li>
-          <li>Category</li>
-          <li>Category</li>
-          <li>Category</li>
-          <li>Category</li>
-        </ul>
+        <div class="categories">
+          <a id="all" href="">
+            <img src="./images/more.png" alt="sandwich menu">
+            All
+          </a>
+          <a href="">Category</a>
+          <a href="">Category</a>
+          <a href="">Category</a>
+          <a href="">Category</a>
+          <a href="">Category</a>
+          <a href="">Category</a>
+          <a href="">Category</a>
+        </div>
+        <div class="admin-bottom">
+          <div>
+            Your rewards are waiting
+          </div>
+          <div>
+            List
+          </div>
+          <div>
+            Prime
+          </div>
+        </div>
       </div>
     </header>
 
